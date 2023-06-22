@@ -34,7 +34,6 @@
         var r = new sn_ws.RESTMessageV2('x_396361_iplookup.IPInfo', 'GetIPInfo');
         r.setStringParameterNoEscape('filter', 'json');
         r.setStringParameterNoEscape('ipaddress', '51.171.60.222');
-		r.setStringParameterNoEscape('filter', 'geo');
 
         //override authentication profile 
         //authentication type ='basic'/ 'oauth2'
@@ -71,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6c9dc99297a32110667076771153af3b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_396361_iplookup">d47378d697232110667076771153af7d</sys_package>
@@ -79,7 +78,7 @@
         <sys_scope display_value="IPLookup">d47378d697232110667076771153af7d</sys_scope>
         <sys_update_name>sys_script_6c9dc99297a32110667076771153af3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-22 17:16:35</sys_updated_on>
+        <sys_updated_on>2023-06-22 18:40:20</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
